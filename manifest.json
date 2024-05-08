@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Stark Color Picker",
+  "version": "1.0",
+  "description": "The tool for selecting colors on your computer and on Web pages is a Google Chrome extension.",
+  "permissions": [
+    "activeTab",
+    "clipboardWrite"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/icons.png",
+      "48": "images/icons.png",
+      "128": "images/icons.png"
+    }
+  }
+}  
